@@ -1,4 +1,4 @@
-def hit_site(url):
+def site_traffic(url):
     print url
     r = requests.get(url,stream = True)
     print r.headers
